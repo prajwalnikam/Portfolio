@@ -361,14 +361,14 @@ button { cursor: pointer; }
 .portfolio-popup-content { grid-template-columns: repeat(2, 1fr); align-items: center; column-gap: 3rem; }
 .portfolio-popup-close { position: absolute; top: 1.5rem; right: 1.5rem; font-size: 1.5rem; color: var(--skin-color); cursor: pointer; }
 .portfolio-popup-img { border-radius: .5rem; }
-.portfolio-popup-subtitle { font-size: var(--smaller-font-size); margin-bottom: var(--mb025); }
-.details-title { font-size: var(--h3-font-size); font-weight: var(--font-medium); margin-bottom: var(--mb1); }
-.details-description { font-size: var(--small-font-size); margin-bottom: var(--mb2); }
-.details-info li { margin-bottom: var(--mb075); text-transform: capitalize; font-size: var(--small-font-size); }
+.portfolio-popup-subtitle { font-size: var(--smaller-font-size); margin-bottom: var(--mb025); color: #d8cbd0;}
+.details-title { font-size: var(--h3-font-size); font-weight: var(--font-medium); margin-bottom: var(--mb1); color: #d8cbd0;}
+.details-description { font-size: var(--small-font-size); margin-bottom: var(--mb2); color: #d8cbd0;}
+.details-info li { margin-bottom: var(--mb075); text-transform: capitalize; font-size: var(--small-font-size); color: #d8cbd0;}
     .details-info li:last-child { margin-bottom: 0; }
     .details-info li span { font-weight: normal; }
     .details-info li a { text-transform: lowercase; color: var(--skin-color); }
-
+  
 /* Main - Services */ 
 
 .services-container { grid-template-columns: repeat(3, 250px); justify-content: center; column-gap: 1.8rem; }
@@ -397,10 +397,10 @@ button { cursor: pointer; }
 .active-modal { opacity: 1; visibility: visible; }
 .services-modal-content { width: 500px; position: relative; background-color: var(--box-color); padding: 4.5rem 2.5rem 2.5rem; border-radius: .5rem; }
 .services-modal-close { position: absolute; top: 1.5rem; right: 1.5rem; font-size: 1.5rem; color: var(--skin-color); cursor: pointer; }
-.services-modal-title, .services-modal-description { text-align: center; }
+.services-modal-title, .services-modal-description { text-align: center;  color: #d8cbd0;}
     .services-modal-title { font-size: var(--h3-font-size); font-weight: var(--font-medium); margin-bottom: var(--mb1); }
     .services-modal-description { font-size: var(--small-font-size); padding: 0 3.5rem; margin-bottom: var(--mb2); }
-.services-modal-services { row-gap: var(--mb075); }
+.services-modal-services { row-gap: var(--mb075);  color: #d8cbd0;}
 .services-modal-service { display: flex; align-items: center; column-gap: .5rem; }
 .services-modal-icon { color: var(--skin-color); font-size: 1.1rem; }
 .services-modal-info { font-size: var(--small-font-size); }
