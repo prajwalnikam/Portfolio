@@ -123,6 +123,27 @@ button { cursor: pointer; }
     align-items: center;
     z-index: 999;
 }
+.theme-toggle {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  font-size: 1.5rem;
+  background-color: var(--box-color);
+  color: var(--title-color);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  z-index: 1000;
+}
+.light-theme {
+  --body-color: #f4f4f4;
+  --text-color: #222;
+  --title-color: #111;
+  --box-color: #ffffff;
+  --scroll-box-color: #ddd;
+  --scroll-thumb-color: #bbb;
+}
+
 .nav-close { font-size: 1.5rem; position: absolute; top: 1rem; right: 1.25rem; cursor: pointer; display: none; }
     .nav-link.active-link, .nav-link:hover { color: var(--skin-color); }
         .nav-link.active-link::after, .nav-link:hover::after {
@@ -164,6 +185,8 @@ button { cursor: pointer; }
   align-items: center;
   gap: 2rem;
   position: relative;
+  flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .home-social {
@@ -208,9 +231,13 @@ button { cursor: pointer; }
 
 .home-img {
   width: 100%;
-  max-width: 480px;
+  max-width: 300px;
   border-radius: 0.75rem;
   justify-self: left;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
 }
 
 .home-data {
@@ -516,12 +543,28 @@ textarea.input { padding: 0.8rem 1.2rem; min-height: 140px; border-radius: .5rem
 
 @media screen and (max-width: 1408px) {
     .container { margin-left: var(--mb25); margin-right: var(--mb25); }
+         .button-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+    .button-group .button {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 1216px) {
     .about-container { column-gap: 2.5rem; }
     .about-description { padding-right: 0; }
     .work-container { grid-template-columns: repeat(2, 330px); gap: 3rem; }
+         .button-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+    .button-group .button {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -560,6 +603,14 @@ textarea.input { padding: 0.8rem 1.2rem; min-height: 140px; border-radius: .5rem
     .portfolio-item-details { margin-bottom: var(--mb15); }
     .details-info li { margin-bottom: var(--mb05); }
     .details-title { margin-bottom: var(--mb075); }
+    .button-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+    .button-group .button {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -583,13 +634,21 @@ textarea.input { padding: 0.8rem 1.2rem; min-height: 140px; border-radius: .5rem
     .portfolio-popup-content { grid-template-columns: 1fr; row-gap: 1.6rem; }
     .details-title { font-size: var(--normal-font-size); }
     .portfolio-popup-close { top: .5rem;  }
+         .button-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+    .button-group .button {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 576px) {
     .nav-toggle { right: initial; left: 1.5rem; }
     .home { background-image: none; height: initial; align-items: initial; padding: 7rem 0 2rem; }
-    .home-container { row-gap: 2rem; }
-    .home-img { display: block; width: 250px; justify-self: center; }
+    .home-container { row-gap: 2rem;     grid-template-columns: 1fr;    text-align: center;}
+    .home-img { display: block; width: 250px; justify-self: center;     max-width: 80%;    margin-top: 2rem;}
     .my-info { display: none; }
     .home-social { left: initial; right: -1rem; flex-direction: column; row-gap: 3.5rem; }
     .home-social-follow { font-size: var(--smaller-font-size); transform: rotate(90deg); }
@@ -607,6 +666,14 @@ textarea.input { padding: 0.8rem 1.2rem; min-height: 140px; border-radius: .5rem
     .footer-container { grid-template-columns: 1fr;  }
     .footer-links { justify-self: flex-start; }
 
+     .button-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+    .button-group .button {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -622,4 +689,11 @@ textarea.input { padding: 0.8rem 1.2rem; min-height: 140px; border-radius: .5rem
     .work-filters { column-gap: .25rem; }
     .services-container { grid-template-columns: max-content; }
     .services-content { padding-right: 3.5rem; }
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
 }

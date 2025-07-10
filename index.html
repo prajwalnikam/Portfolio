@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -31,6 +30,9 @@
         <nav class="nav">
             <div class="nav-logo">
                 <a href="#" class="nav-logo-text">PN</a>
+            </div>
+            <div class="theme-toggle" id="theme-toggle">
+                <i class="uil uil-moon"></i>
             </div>
 
             <div class="nav-menu">
@@ -63,10 +65,6 @@
                 </div>
             </div>
 
-            <div class="btn-share">
-                <i class="uil uil-share-alt social-share"></i>
-            </div>
-
             <div class="nav-close" id="nav-close">
                 <i class="uil uil-times"></i>
             </div>
@@ -82,42 +80,52 @@
                 <p class="home-description">
                     Full Stack Web Developer specializing in building dynamic, scalable web applications with
                     seamless front-end and back-end integration.</p>
-                <a href="#about" class="button"><i class="uil uil-user button-icon"></i>More About me!</a>
+                <div class="button-group">
+                    <a href="#about" class="button">
+                        <i class="uil uil-user button-icon"></i>More About me!
+                    </a>
 
-                <a href="assets/Prajwal_Nikam_9158546345.pdf" download class="button" style="margin-left: 1rem;">
-                    <i class="uil uil-import button-icon"></i>Download My CV
-                </a>
+                    <a href="assets/Prajwal_Nikam_9158546345.pdf" download class="button">
+                        <i class="uil uil-import button-icon"></i>Download My CV
+                    </a>
+                </div>
+
 
                 <div class="my-info">
                     <div class="info-item">
                         <i class="uil uil-github info-icon"></i>
                         <div>
                             <a href="https://github.com/prajwalnikam">
-                              <h3 class="info-title">github</h3>
-                            <span class="info-subtitle">prajwalnikam </span></a>
+                                <h3 class="info-title">github</h3>
+                                <span class="info-subtitle">prajwalnikam </span>
+                            </a>
                         </div>
                     </div>
                     <div class="info-item">
                         <i class="uil uil-whatsapp info-icon"></i>
                         <div>
-                            <a href=" https://api.whatsapp.com/send?phone=919158546345&text=Hello%20Prajwal!%20I%20would%20like%20to%20connect.">
-                            <h3 class="info-title">Whatsapp</h3>
-                            <span class="info-subtitle">+91 9158546345</span></a>
+                            <a
+                                href=" https://api.whatsapp.com/send?phone=919158546345&text=Hello%20Prajwal!%20I%20would%20like%20to%20connect.">
+                                <h3 class="info-title">Whatsapp</h3>
+                                <span class="info-subtitle">+91 9158546345</span>
+                            </a>
                         </div>
                     </div>
                     <div class="info-item">
                         <i class="uil uil-envelope-edit info-icon"></i>
                         <div>
                             <a href="mailto:prajwalnikam4@gmail.com">
-                            <h3 class="info-title">Email</h3>
-                            <span class="info-subtitle">prajwalnikam4@gmail.com</span></a>
+                                <h3 class="info-title">Email</h3>
+                                <span class="info-subtitle">prajwalnikam4@gmail.com</span>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="home-img-wrapper">
                 <img src="assets/Screenshot from 2025-07-02 13-14-25.png" alt="Profile Image" class="home-img">
             </div>
+        </div>
     </section>
 
     <section class="about section" id="about">
@@ -427,7 +435,7 @@
                         <li>Created - <span>12 Mar 2025</span></li>
                         <li>Technologies - <span>Laravel</span></li>
                         <li>Role - <span>Full Stack</span></li>
-                        <!-- <li>View - <span><a href="#">www.domain.com</a></span></li> -->
+                        <li>View - <span><a href="https://github.com/prajwalnikam/rmw.git">Github Repo</a></span></li>
                     </ul>
                 </div>
             </div>
@@ -745,7 +753,7 @@
                         device. Since the launch, I've seen a significant increase in inquiries and bookings</p>
                     <h3 class="testimonial-date">May 20, 2025</h3>
                     <div class="testimonial-profile">
-                        <img src="assets/insMind(1).jpg"alt="Image" class=" testimonial-profile-img">
+                        <img src="assets/insMind(1).jpg" alt="Image" class=" testimonial-profile-img">
 
                         <div class="testimonial-profile-data">
                             <span class="testimonial-profile-name">Rohit Mahadik</span>
@@ -810,16 +818,16 @@
                         <i class="uil uil-whatsapp contact-card-icon"></i>
                         <h3 class="contact-card-title">Whatsapp</h3>
                         <span class="contact-card-data">+91 9158546345</span>
-                        <a href="https://api.whatsapp.com/send?phone=919158546345&text=Hello%20Prajwal!%20I%20would%20like%20to%20connect." class="contact-button">Write me <i
-                                class="uil uil-arrow-right contact-button-icon"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=919158546345&text=Hello%20Prajwal!%20I%20would%20like%20to%20connect."
+                            class="contact-button">Write me <i class="uil uil-arrow-right contact-button-icon"></i></a>
                     </div>
 
                     <div class="contact-card">
                         <i class="uil uil-instagram contact-card-icon"></i>
                         <h3 class="contact-card-title">instagram</h3>
                         <span class="contact-card-data">_prajwal_nikam</span>
-                        <a href="https://www.instagram.com/_prajwal_nikam/" target="_blank" class="contact-button">Write me <i
-                                class="uil uil-arrow-right contact-button-icon"></i></a>
+                        <a href="https://www.instagram.com/_prajwal_nikam/" target="_blank" class="contact-button">Write
+                            me <i class="uil uil-arrow-right contact-button-icon"></i></a>
                     </div>
                 </div>
             </div>
@@ -881,7 +889,7 @@
                 <div class="footer-socials">
                     <a href="https://github.com/prajwalnikam" target="_blank" class="footer-social">
                         <i class="uil uil-github"></i>
-                    </a>  
+                    </a>
                     <a href="https://www.linkedin.com/in/prajwal-nikam-pn2181/" target="_blank" class="footer-social">
                         <i class="uil uil-linkedin"></i>
                     </a>
@@ -891,7 +899,8 @@
                 </div>
             </div>
 
-            <p class="footer-copy">&#169; <a href="https://www.linkedin.com/in/prajwal-nikam-pn2181/">Prajwal Nikam</a>. All rights
+            <p class="footer-copy">&#169; <a href="https://www.linkedin.com/in/prajwal-nikam-pn2181/">Prajwal Nikam</a>.
+                All rights
                 reserved</p>
         </div>
     </footer>
@@ -901,6 +910,14 @@
     <script src="https://cdn.jsdelivr.net/npm/mixitup@3/dist/mixitup.min.js"></script>
 
     <script src="script.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HXJ7CFBK8Y"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-HXJ7CFBK8Y');
+    </script>
 </body>
 
 </html>

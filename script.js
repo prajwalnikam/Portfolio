@@ -166,3 +166,26 @@ if(navClose) {
         navMenu.classList.remove('show-sidebar');
     })
 }
+
+// Theme toggle
+const themeToggle = document.getElementById('theme-toggle');
+const body = document.body;
+
+// Load saved theme
+if (localStorage.getItem('theme') === 'light') {
+    body.classList.add('light-theme');
+    themeToggle.innerHTML = '<i class="uil uil-moon"></i>';
+}
+
+themeToggle.addEventListener('click', () => {
+    body.classList.toggle('light-theme');
+
+    // Save preference
+    if (body.classList.contains('light-theme')) {
+        localStorage.setItem('theme', 'light');
+        themeToggle.innerHTML = '<i class="uil uil-sun"></i>';
+    } else {
+        localStorage.setItem('theme', 'dark');
+        themeToggle.innerHTML = '<i class="uil uil-moon"></i>';
+    }
+});
