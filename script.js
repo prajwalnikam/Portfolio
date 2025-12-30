@@ -189,3 +189,12 @@ themeToggle.addEventListener('click', () => {
         themeToggle.innerHTML = '<i class="uil uil-moon"></i>';
     }
 });
+
+const navLink = document.querySelectorAll('.nav-link');
+
+function linkAction(){
+    const navMenu = document.getElementById('sidebar');
+    // When we click on each nav-link, we remove the show-sidebar class
+    navMenu.classList.remove('show-sidebar');
+}
+navLink.forEach(n => n.addEventListener('click', linkAction));
