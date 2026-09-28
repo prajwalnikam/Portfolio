@@ -2,7 +2,7 @@
   "name": "Prajwal Nikam | Full Stack Developer",
   "short_name": "Prajwal Nikam",
   "description": "Portfolio of Prajwal Nikam, Full Stack Web Developer & Software Engineer.",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#070d1e",
   "theme_color": "#0b1329",
