@@ -7,7 +7,7 @@
 - **Role**: Full Stack Web Developer & Software QA Engineer
 - **Experience**: 3+ years in professional software engineering and web application architecture
 - **Location**: Maharashtra, India
-- **Portfolio Website**: https://prajwalnikam.dev/
+- **Portfolio Website**: https://prajwalnikam.github.io/Portfolio/
 - **GitHub**: https://github.com/prajwalnikam
 - **LinkedIn**: https://www.linkedin.com/in/prajwal-nikam-pn2181/
 - **Email**: prajwalnikam4@gmail.com
