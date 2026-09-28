@@ -1,0 +1,53 @@
+# Prajwal Nikam - Full Stack Web Developer & Software Engineer
+
+> Personal portfolio and technical profile of Prajwal Nikam, specializing in PHP Laravel, React, Java, Spring Boot, and automated QA testing.
+
+## Summary
+- **Name**: Prajwal Nikam
+- **Role**: Full Stack Web Developer & Software QA Engineer
+- **Experience**: 3+ years in professional software engineering and web application architecture
+- **Location**: Maharashtra, India
+- **Portfolio Website**: https://prajwalnikam.dev/
+- **GitHub**: https://github.com/prajwalnikam
+- **LinkedIn**: https://www.linkedin.com/in/prajwal-nikam-pn2181/
+- **Email**: prajwalnikam4@gmail.com
+- **WhatsApp**: +91 9158546345
+
+## Technical Skills
+- **Frontend**: React.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Responsive Web Design
+- **Backend**: PHP Laravel, Java, Spring Boot, Node.js, RESTful API Design & Integration
+- **Databases**: MySQL, PostgreSQL, MongoDB, Schema Design, Query Optimization
+- **Testing & QA**: Manual & Automated Software Testing, White Box, Black Box, Unit & Integration Testing, Postman API Testing
+- **Client & Product Lifecycle**: Technical Documentation, Customer Support, Product Sales Demonstrations
+- **Tools & DevOps**: Git, GitHub, Docker, Jenkins, Postman, VS Code, CI/CD pipelines
+
+## Experience & Career Journey
+- **May 2026 – Present**: Software Developer at Kan Infocom Solutions (Laravel, MySQL, REST API)
+- **2024 – 2025**: Software Developer Intern at Zerovaega Technologies Pvt. Ltd. (Java, Laravel, React, MySQL, QA Testing, Technical Documentation, Customer Support, Sales Demonstrations)
+- **2021 – 2025**: Bachelor of Technology (B.Tech) in Computer Science (D.Y. Patil Agriculture and Technical University)
+- **2019 – 2021**: Diploma in Computer Science (D.Y. Patil Polytechnic)
+
+## Featured Projects
+1. **Sherlock (AI Employee Assessment & Task Assignment System)**
+   - *Stack*: PHP Laravel, React, MySQL, AI Engine
+   - *Description*: Automated evaluation chatbot to determine developer project fit, estimate milestones, and generate custom performance assessments.
+2. **B2B Freelancing Platform**
+   - *Stack*: PHP Laravel, React, MySQL, REST API
+   - *Description*: Enterprise resource portal connecting businesses with technical vendor bench talent and managing automated proposal pipelines.
+3. **Exam Management System**
+   - *Stack*: PHP Laravel, JavaScript, MySQL, Automated Testing
+   - *Description*: Scalable online examination system supporting concurrent submissions with rigorous black box and performance testing.
+4. **Automatic Stopping Car**
+   - *Stack*: Arduino, C++, Ultrasonic Proximity Sensors
+   - *Description*: Collision avoidance vehicle stopping automatically within 60 cm obstacle detection.
+5. **Smart Seed Dropping Car**
+   - *Stack*: Arduino, C++, Actuators, Precision Sensors
+   - *Description*: Agricultural robot automating seed placement at exact intervals with automated soil covering.
+6. **Weather Forecasting Tool**
+   - *Stack*: Java, Weather REST API, HTML5/CSS3
+   - *Description*: Live meteorological dashboard with temperature, humidity, and 7-day predictive analytics.
+
+## Services Offered
+- **Full Stack Development**: End-to-end web applications with modern frontend architectures and high-throughput backends.
+- **Software Testing & QA**: Automated and manual testing regimes, bug tracking, and performance verification.
+- **Database & API Engineering**: High-efficiency relational/NoSQL schemas, microservices, and secure RESTful endpoints.

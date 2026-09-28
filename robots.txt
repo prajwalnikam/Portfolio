@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# AI Crawlers & Search Indexers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap Index
+Sitemap: https://prajwalnikam.dev/sitemap.xml
