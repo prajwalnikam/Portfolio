@@ -178,41 +178,17 @@
     </script>
 </head>
 
-<body>
-    <!-- Mobile Navigation Bar Header -->
-    <header class="mobile-header" id="mobile-header">
-        <div class="mobile-brand">
-            <span class="brand-badge">PN</span>
-            <span class="brand-name">Prajwal Nikam</span>
-        </div>
-        <div class="mobile-actions">
-            <div class="mobile-theme-btn" id="mobile-theme-toggle" role="button" aria-label="Toggle theme">
-                <i class="uil uil-moon"></i>
-            </div>
-            <div class="mobile-nav-toggle" id="nav-toggle" role="button" aria-label="Toggle navigation">
-                <i class="uil uil-bars"></i>
-            </div>
-        </div>
-    </header>
+<body class="light-theme">
+    <!-- Top Fixed Navigation Bar -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav-brand" aria-label="Prajwal Nikam Home">
+                <div class="brand-badge">PN</div>
+                <span class="brand-name">Prajwal Nikam</span>
+            </a>
 
-    <!-- Left Vertical Sidebar (260px fixed on desktop) -->
-    <aside class="sidebar" id="sidebar">
-        <div class="sidebar-container">
-            <!-- Brand Logo Header -->
-            <div class="sidebar-header">
-                <a href="#home" class="sidebar-brand" aria-label="Prajwal Nikam Home">
-                    <div class="brand-badge">PN</div>
-                    <div class="brand-text">
-                        <span class="brand-title">Prajwal Nikam</span>
-                    </div>
-                </a>
-                <button class="nav-close" id="nav-close" aria-label="Close menu">
-                    <i class="uil uil-times"></i>
-                </button>
-            </div>
-
-            <!-- Navigation Links -->
-            <nav class="nav-menu" aria-label="Main Navigation">
+            <!-- Navigation Menu (Desktop horizontal row, Mobile sliding drawer) -->
+            <div class="nav-menu" id="nav-menu">
                 <ul class="nav-list">
                     <li class="nav-item">
                         <a href="#home" class="nav-link active-link">
@@ -263,37 +239,38 @@
                         </a>
                     </li>
                 </ul>
-            </nav>
 
-            <!-- Sidebar Footer: Socials & Theme Toggle -->
-            <div class="sidebar-footer">
-                <div class="sidebar-socials">
-                    <a href="https://github.com/prajwalnikam" target="_blank" rel="noopener noreferrer" class="sidebar-social" aria-label="GitHub Profile" title="GitHub">
-                        <i class="uil uil-github"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/prajwal-nikam-pn2181/" target="_blank" rel="noopener noreferrer" class="sidebar-social" aria-label="LinkedIn Profile" title="LinkedIn">
-                        <i class="uil uil-linkedin"></i>
-                    </a>
-                    <a href="https://api.whatsapp.com/send?phone=919158546345&text=Hello%20Prajwal!" target="_blank" rel="noopener noreferrer" class="sidebar-social" aria-label="WhatsApp Contact" title="WhatsApp">
-                        <i class="uil uil-whatsapp"></i>
-                    </a>
-                    <a href="mailto:prajwalnikam4@gmail.com" class="sidebar-social" aria-label="Direct Email" title="Email">
-                        <i class="uil uil-envelope"></i>
-                    </a>
-                </div>
-
-                <div class="sidebar-theme">
-                    <div class="theme-switch" id="theme-toggle" role="button" aria-label="Toggle dark/light theme" title="Toggle theme">
-                        <div class="theme-switch-track">
-                            <i class="uil uil-sun icon-sun"></i>
-                            <i class="uil uil-moon icon-moon"></i>
-                            <span class="theme-switch-thumb"></span>
-                        </div>
-                    </div>
+                <!-- Mobile Menu Close Button -->
+                <div class="nav-close" id="nav-close" role="button" aria-label="Close navigation menu">
+                    <i class="uil uil-times"></i>
                 </div>
             </div>
-        </div>
-    </aside>
+
+            <!-- Navbar Right Actions: Socials, Theme Switch & Mobile Hamburger -->
+            <div class="nav-actions">
+                <div class="nav-socials">
+                    <a href="https://github.com/prajwalnikam" target="_blank" rel="noopener noreferrer" class="nav-social" aria-label="GitHub Profile" title="GitHub">
+                        <i class="uil uil-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/prajwal-nikam-pn2181/" target="_blank" rel="noopener noreferrer" class="nav-social" aria-label="LinkedIn Profile" title="LinkedIn">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+                </div>
+
+                <div class="theme-switch" id="theme-toggle" role="button" aria-label="Toggle dark/light theme" title="Toggle theme">
+                    <div class="theme-switch-track">
+                        <i class="uil uil-sun icon-sun"></i>
+                        <i class="uil uil-moon icon-moon"></i>
+                        <span class="theme-switch-thumb"></span>
+                    </div>
+                </div>
+
+                <div class="nav-toggle" id="nav-toggle" role="button" aria-label="Toggle navigation">
+                    <i class="uil uil-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <!-- Main Content Area -->
     <main class="main">
@@ -302,6 +279,10 @@
             <div class="home-container container">
                 <!-- Left: Headline, Subtitle, CTA buttons, and Tech Pills -->
                 <div class="home-data">
+                    <div class="status-badge" aria-label="Current Availability Status">
+                        <span class="status-dot"></span>
+                        <span class="status-text">Available for work</span>
+                    </div>
                     <div class="badge-tag">Hello, I'm</div>
                     <h1 class="home-title">Prajwal <span class="text-blue">Nikam</span></h1>
                     <h2 class="home-subtitle"><span class="typed-text">Full Stack Developer</span><span class="typed-cursor">|</span></h2>
@@ -318,6 +299,10 @@
                             <i class="uil uil-download-alt btn-icon"></i>
                             <span>Download Resume</span>
                         </a>
+                        <button type="button" class="btn btn-outline print-resume-btn" aria-label="Print Clean Resume">
+                            <i class="uil uil-print btn-icon"></i>
+                            <span>Print</span>
+                        </button>
                     </div>
 
                     <!-- Tech Stack Pills Row below Buttons -->
@@ -354,6 +339,16 @@
 
                 <!-- Right: Quick Contact Cards Stack -->
                 <div class="home-quick-contacts">
+                    <a href="#schedule-call" class="contact-pill-card schedule-card" id="hero-schedule-btn" aria-label="Schedule a Google Meet call with Prajwal">
+                        <div class="contact-pill-icon calendar-bg">
+                            <i class="uil uil-video"></i>
+                        </div>
+                        <div class="contact-pill-content">
+                            <span class="contact-pill-label">Google Meet</span>
+                            <span class="contact-pill-link">Schedule a Call <i class="uil uil-arrow-right"></i></span>
+                        </div>
+                    </a>
+
                     <a href="https://github.com/prajwalnikam" target="_blank" rel="noopener noreferrer" class="contact-pill-card" aria-label="Visit GitHub Profile">
                         <div class="contact-pill-icon github-bg">
                             <i class="uil uil-github"></i>
@@ -432,6 +427,10 @@
                             <i class="uil uil-file-download-alt"></i>
                             <span>Download CV</span>
                         </a>
+                        <button type="button" class="btn btn-outline print-resume-btn" aria-label="Print Clean Resume">
+                            <i class="uil uil-print"></i>
+                            <span>Print Resume</span>
+                        </button>
                         <a href="#contact" class="btn btn-outline" aria-label="Navigate to contact section">
                             <i class="uil uil-envelope"></i>
                             <span>Let's Talk</span>
@@ -439,10 +438,97 @@
                     </div>
                 </div>
 
-                <!-- Col 2: Workspace Setup Photo -->
+                <!-- Col 2: Interactive Developer Terminal Widget & Workspace Setup -->
                 <div class="about-col-photo">
-                    <div class="workspace-card">
-                        <img src="assets/f33dd173-b985-46f7-bd8c-f0c8c263d040.jpg" alt="Developer workspace setup with code on laptop screen, plant, and notepad" class="workspace-img" loading="lazy" decoding="async">
+                    <div class="code-card">
+                        <div class="code-card-header">
+                            <div class="code-window-dots">
+                                <span class="code-dot dot-red"></span>
+                                <span class="code-dot dot-yellow"></span>
+                                <span class="code-dot dot-green"></span>
+                            </div>
+                            <div class="code-tabs">
+                                <button type="button" class="code-tab-btn active" data-tab="prajwal-ts" aria-label="View prajwal.ts">
+                                    <i class="uil uil-file-code-alt"></i>
+                                    <span>prajwal.ts</span>
+                                </button>
+                                <button type="button" class="code-tab-btn" data-tab="stack-json" aria-label="View stack.json">
+                                    <i class="uil uil-brackets-curly"></i>
+                                    <span>stack.json</span>
+                                </button>
+                                <button type="button" class="code-tab-btn" data-tab="terminal" aria-label="View Terminal Output">
+                                    <i class="uil uil-terminal"></i>
+                                    <span>terminal</span>
+                                </button>
+                                <button type="button" class="code-tab-btn" data-tab="workspace" aria-label="View Workspace Photo">
+                                    <i class="uil uil-camera"></i>
+                                    <span>setup.jpg</span>
+                                </button>
+                            </div>
+                            <button type="button" class="code-copy-btn" id="code-copy-btn" aria-label="Copy active code snippet">
+                                <i class="uil uil-copy"></i>
+                                <span class="copy-text">Copy</span>
+                            </button>
+                        </div>
+
+                        <div class="code-card-body">
+                            <!-- Tab 1: prajwal.ts -->
+                            <div class="code-panel active" id="panel-prajwal-ts">
+<pre><code><span class="code-keyword">interface</span> <span class="code-type">Developer</span> {
+  name: <span class="code-type">string</span>;
+  role: <span class="code-type">string</span>;
+  experience: <span class="code-type">string</span>;
+  currentCompany: <span class="code-type">string</span>;
+  focus: <span class="code-type">string[]</span>;
+  openToRoles: <span class="code-type">boolean</span>;
+}
+
+<span class="code-keyword">export const</span> <span class="code-prop">prajwal</span>: <span class="code-type">Developer</span> = {
+  <span class="code-prop">name</span>: <span class="code-string">"Prajwal Nikam"</span>,
+  <span class="code-prop">role</span>: <span class="code-string">"Full Stack Web Developer &amp; Software Engineer"</span>,
+  <span class="code-prop">experience</span>: <span class="code-string">"3+ Years Practical Experience"</span>,
+  <span class="code-prop">currentCompany</span>: <span class="code-string">"Kan Infocom Solutions"</span>,
+  <span class="code-prop">focus</span>: [
+    <span class="code-string">"Laravel"</span>, <span class="code-string">"React"</span>, <span class="code-string">"Java"</span>,
+    <span class="code-string">"Spring Boot"</span>, <span class="code-string">"REST APIs"</span>, <span class="code-string">"QA"</span>
+  ],
+  <span class="code-prop">openToRoles</span>: <span class="code-bool">true</span>
+};</code></pre>
+                            </div>
+
+                            <!-- Tab 2: stack.json -->
+                            <div class="code-panel" id="panel-stack-json">
+<pre><code>{
+  <span class="code-prop">"frontend"</span>: [<span class="code-string">"React"</span>, <span class="code-string">"JavaScript (ES6+)"</span>, <span class="code-string">"HTML5/CSS3"</span>, <span class="code-string">"Tailwind"</span>],
+  <span class="code-prop">"backend"</span>: [<span class="code-string">"Laravel (PHP)"</span>, <span class="code-string">"Java"</span>, <span class="code-string">"Spring Boot"</span>, <span class="code-string">"Node.js"</span>],
+  <span class="code-prop">"databases"</span>: [<span class="code-string">"MySQL"</span>, <span class="code-string">"PostgreSQL"</span>, <span class="code-string">"MongoDB"</span>],
+  <span class="code-prop">"testingQA"</span>: [<span class="code-string">"Manual QA"</span>, <span class="code-string">"Automated Testing"</span>, <span class="code-string">"Bug Tracking"</span>],
+  <span class="code-prop">"devOpsTools"</span>: [<span class="code-string">"Git"</span>, <span class="code-string">"GitHub Actions"</span>, <span class="code-string">"Docker"</span>, <span class="code-string">"Postman"</span>]
+}</code></pre>
+                            </div>
+
+                            <!-- Tab 3: terminal -->
+                            <div class="code-panel" id="panel-terminal">
+<pre><code><span class="terminal-prompt">prajwal@macbook</span>:<span class="code-string">~</span>$ prajwal status
+<span class="terminal-check">✔</span> <span class="terminal-cmd">Status:</span> Available for Full-Time &amp; Freelance
+<span class="terminal-check">✔</span> <span class="terminal-cmd">Focus:</span> High-throughput APIs &amp; Scalable Web Apps
+<span class="terminal-check">✔</span> <span class="terminal-cmd">Location:</span> Kolhapur, Maharashtra (Open to Remote)
+<span class="terminal-prompt">prajwal@macbook</span>:<span class="code-string">~</span>$ prajwal connect
+<span class="terminal-out">📧 Email:</span> <span class="code-string">prajwalnikam4@gmail.com</span>
+<span class="terminal-out">📱 WhatsApp:</span> <span class="code-string">+91 9158546345</span>
+<span class="terminal-out">⚡ Response time:</span> <span class="code-string">&lt; 24 hours</span></code></pre>
+                            </div>
+
+                            <!-- Tab 4: setup.jpg (Workspace view) -->
+                            <div class="code-panel" id="panel-workspace">
+                                <div class="terminal-workspace-preview">
+                                    <img src="assets/f33dd173-b985-46f7-bd8c-f0c8c263d040.jpg" alt="Prajwal Nikam - Full Stack Developer Workspace" class="workspace-img" loading="lazy" decoding="async">
+                                    <div class="terminal-workspace-caption">
+                                        <span class="terminal-check">✔</span> Engineering &amp; Dual-Monitor Workspace Setup
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -959,15 +1045,15 @@
                 <div class="testimonial-mockup-card">
                     <div class="quote-symbol">“</div>
                     <p class="testimonial-quote-text">
-                        Prajwal is a dedicated and talented developer. He consistently delivered quality work, showed great problem-solving skills, and was very easy to work with.
+                        Prajwal has an exceptional ability to translate Figma designs into pixel-perfect, responsive web interfaces. Collaborating with him was effortless because he truly understands design intent, animation subtlety, and frontend ergonomics.
                     </p>
                     <div class="testimonial-client-row">
                         <div class="client-avatar-wrapper">
-                            <img src="assets/avatar-parvez.jpg" alt="Parvez Shaikh - Team Lead at Zerovaega Technologies" class="client-avatar" loading="lazy" decoding="async">
+                            <img src="assets/avatar-aditya.svg" alt="Aditya Salokhe - Ex- UI/UX Designer at Zerovaega Technologies Pvt. Ltd." class="client-avatar" loading="lazy" decoding="async">
                         </div>
                         <div class="client-meta">
-                            <h3 class="client-name">Parvez Shaikh</h3>
-                            <span class="client-role">Team Lead, Zerovaega Technologies</span>
+                            <h3 class="client-name">Aditya Salokhe</h3>
+                            <span class="client-role">Ex- UI/UX Designer, Zerovaega Technologies Pvt. Ltd.</span>
                         </div>
                         <div class="testimonial-nav-btns">
                             <button class="t-nav-btn prev" aria-label="Previous testimonial"><i class="uil uil-angle-left"></i></button>
@@ -993,6 +1079,10 @@
                                 <span>Send Message</span>
                                 <i class="uil uil-arrow-right btn-icon"></i>
                             </button>
+                            <button type="button" class="btn btn-outline" id="schedule-call-btn" aria-label="Schedule a Google Meet call with Prajwal">
+                                <i class="uil uil-video btn-icon"></i>
+                                <span>Schedule Call</span>
+                            </button>
                             <button type="button" class="btn btn-outline" id="copy-email-btn" aria-label="Copy email address to clipboard">
                                 <i class="uil uil-copy"></i>
                                 <span>Copy Email</span>
@@ -1001,6 +1091,14 @@
                     </div>
 
                     <div class="contact-quick-list">
+                        <a href="#schedule-call" class="contact-box-item" id="quick-schedule-btn" aria-label="Schedule a Google Meet call with Prajwal">
+                            <div class="contact-box-icon calendar-col"><i class="uil uil-video"></i></div>
+                            <div class="contact-box-content">
+                                <span class="contact-box-type">Google Meet</span>
+                                <span class="contact-box-val">Schedule a Call</span>
+                            </div>
+                        </a>
+
                         <a href="mailto:prajwalnikam4@gmail.com" class="contact-box-item" aria-label="Send Email">
                             <div class="contact-box-icon email-col"><i class="uil uil-envelope"></i></div>
                             <div class="contact-box-content">
@@ -1091,6 +1189,63 @@
         </div>
     </div>
 
+    <!-- Interactive Google Meet / Schedule Call Modal -->
+    <div class="contact-modal" id="schedule-modal" role="dialog" aria-modal="true" aria-labelledby="modal-schedule-title">
+        <div class="contact-modal-content">
+            <button class="modal-close" id="close-schedule-modal" aria-label="Close schedule modal"><i class="uil uil-times"></i></button>
+            <h3 class="modal-title" id="modal-schedule-title">Schedule a Call</h3>
+            <p class="modal-subtitle">Pick your preferred platform and time. Prajwal will reply with the meeting link directly to your email.</p>
+            <form id="schedule-form" class="modal-form">
+                <div class="form-row-2">
+                    <div class="form-group">
+                        <label for="sched-name">Your Name</label>
+                        <input type="text" id="sched-name" name="name" class="modal-input" placeholder="e.g. Alex Smith" required autocomplete="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="sched-email">Email Address</label>
+                        <input type="email" id="sched-email" name="email" class="modal-input" placeholder="e.g. alex@example.com" required autocomplete="email">
+                    </div>
+                </div>
+
+                <div class="form-row-2">
+                    <div class="form-group">
+                        <label for="sched-platform">Meeting Platform</label>
+                        <select id="sched-platform" name="platform" class="modal-input">
+                            <option value="Google Meet">Google Meet (Recommended)</option>
+                            <option value="WhatsApp Call">WhatsApp Call</option>
+                            <option value="Phone Call">Direct Phone Call</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="sched-datetime">Preferred Date & Time</label>
+                        <input type="text" id="sched-datetime" name="datetime" class="modal-input" placeholder="e.g. Tomorrow at 3:00 PM IST" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="sched-topic">Topic / Purpose</label>
+                    <textarea id="sched-topic" name="topic" class="modal-input modal-textarea" rows="3" placeholder="Briefly describe the project, role, or discussion topic..." required></textarea>
+                </div>
+
+                <div id="sched-status" class="form-status-msg" role="status"></div>
+                <button type="submit" class="btn btn-primary modal-submit">
+                    <span>Request Meeting</span>
+                    <i class="uil uil-video btn-icon"></i>
+                </button>
+            </form>
+
+            <div class="modal-quick-actions">
+                <span class="modal-or-divider">or book instantly via WhatsApp:</span>
+                <div class="modal-alt-btns">
+                    <a href="https://api.whatsapp.com/send?phone=919158546345&text=Hi%20Prajwal,%20I'd%20like%20to%20schedule%20a%20Google%20Meet%20call%20with%20you!" target="_blank" rel="noopener noreferrer" class="btn-alt whatsapp-alt">
+                        <i class="uil uil-whatsapp"></i>
+                        <span>WhatsApp Quick Book</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Portfolio Popup Modal (for project details) -->
     <div class="portfolio-popup" role="dialog" aria-modal="true" aria-labelledby="popup-project-title">
         <div class="portfolio-popup-inner">
@@ -1108,9 +1263,9 @@
     </div>
 
     <!-- Scroll Up Floating Action Button -->
-    <a href="#home" class="scrollup" id="scroll-up" aria-label="Scroll to top" title="Scroll to top">
+    <!-- <a href="#home" class="scrollup" id="scroll-up" aria-label="Scroll to top" title="Scroll to top">
         <i class="uil uil-arrow-up scrollup-icon"></i>
-    </a>
+    </a> -->
 
     <!-- Floating Toast Notification -->
     <div id="toast" class="toast-notification" role="status" aria-live="polite">
