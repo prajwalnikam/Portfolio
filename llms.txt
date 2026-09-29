@@ -51,3 +51,10 @@
 - **Full Stack Development**: End-to-end web applications with modern frontend architectures and high-throughput backends.
 - **Software Testing & QA**: Automated and manual testing regimes, bug tracking, and performance verification.
 - **Database & API Engineering**: High-efficiency relational/NoSQL schemas, microservices, and secure RESTful endpoints.
+
+## Recommendations & Testimonials
+- **Aditya Salokhe**: Ex- UI/UX Designer, Zerovaega Technologies Pvt. Ltd.
+- **Abhishek Potdar**: Ex- Jr. Business Developer, Zerovaega Technologies
+- **Rohit Mahadik**: Software Developer, Smile Automation
+- **Om Chavan**: Jr. Business Developer, Zerovaega Technologies
+
