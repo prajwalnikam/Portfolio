@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="bg-aditya" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="skin-aditya" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8d9b8"/>
+      <stop offset="100%" stop-color="#e8b88a"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Circle -->
+  <circle cx="60" cy="60" r="60" fill="url(#bg-aditya)"/>
+  
+  <!-- Shoulders & Shirt -->
+  <path d="M22 110 C22 92 38 82 60 82 C82 82 98 92 98 110 Z" fill="#0f172a"/>
+  <!-- Collar -->
+  <path d="M48 82 L60 94 L72 82 L66 82 L60 88 L54 82 Z" fill="#38bdf8"/>
+  <path d="M48 82 L60 94 L54 82 Z" fill="#ffffff"/>
+  <path d="M72 82 L60 94 L66 82 Z" fill="#e2e8f0"/>
+  
+  <!-- Neck -->
+  <rect x="52" y="68" width="16" height="18" rx="4" fill="url(#skin-aditya)"/>
+  <path d="M52 74 Q60 80 68 74 L68 78 Q60 84 52 78 Z" fill="#d29b6e" opacity="0.4"/>
+  
+  <!-- Ears -->
+  <circle cx="36" cy="54" r="6" fill="#e8b88a"/>
+  <circle cx="84" cy="54" r="6" fill="#e8b88a"/>
+  
+  <!-- Head / Face -->
+  <rect x="38" y="32" width="44" height="46" rx="20" fill="url(#skin-aditya)"/>
+  
+  <!-- Hair Base & Top -->
+  <path d="M36 40 C36 24 50 18 64 18 C78 18 84 26 84 38 C78 35 70 33 60 33 C46 33 40 37 36 40 Z" fill="#1e1b18"/>
+  <path d="M38 28 C45 20 60 16 75 22 C65 20 50 22 42 28 Z" fill="#2d2620"/>
+  
+  <!-- Eyebrows -->
+  <path d="M44 45 Q50 43 54 45" stroke="#1e1b18" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M66 45 Q70 43 76 45" stroke="#1e1b18" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  
+  <!-- Designer Glasses -->
+  <rect x="42" y="47" width="14" height="10" rx="3" fill="none" stroke="#0f172a" stroke-width="2"/>
+  <rect x="64" y="47" width="14" height="10" rx="3" fill="none" stroke="#0f172a" stroke-width="2"/>
+  <line x1="56" y1="51" x2="64" y2="51" stroke="#0f172a" stroke-width="2"/>
+  <line x1="38" y1="51" x2="42" y2="51" stroke="#0f172a" stroke-width="1.8"/>
+  <line x1="78" y1="51" x2="82" y2="51" stroke="#0f172a" stroke-width="1.8"/>
+  
+  <!-- Eyes inside glasses -->
+  <circle cx="49" cy="52" r="2.2" fill="#1e1b18"/>
+  <circle cx="71" cy="52" r="2.2" fill="#1e1b18"/>
+  <circle cx="49.8" cy="51.2" r="0.7" fill="#ffffff"/>
+  <circle cx="71.8" cy="51.2" r="0.7" fill="#ffffff"/>
+  
+  <!-- Nose -->
+  <path d="M58 54 Q60 60 62 60" stroke="#d29b6e" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+  
+  <!-- Friendly Smile -->
+  <path d="M52 66 Q60 72 68 66" stroke="#b45309" stroke-width="2" stroke-linecap="round" fill="none"/>
+  
+  <!-- Stylish short beard / stubble shadow -->
+  <path d="M48 68 Q60 77 72 68 Q60 74 48 68 Z" fill="#2d2620" opacity="0.15"/>
+</svg>

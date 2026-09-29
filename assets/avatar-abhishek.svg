@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="bg-abhishek" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="skin-abhishek" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5d0b0"/>
+      <stop offset="100%" stop-color="#e0aa80"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Circle -->
+  <circle cx="60" cy="60" r="60" fill="url(#bg-abhishek)"/>
+  
+  <!-- Suit Jacket & Shoulders -->
+  <path d="M22 110 C22 92 38 80 60 80 C82 80 98 92 98 110 Z" fill="#1e293b"/>
+  <!-- White Dress Shirt & Tie -->
+  <path d="M48 80 L60 98 L72 80 Z" fill="#ffffff"/>
+  <!-- Tie -->
+  <path d="M57 88 L63 88 L65 110 L55 110 Z" fill="#ef4444"/>
+  <path d="M56 84 L64 84 L62 90 L58 90 Z" fill="#b91c1c"/>
+  
+  <!-- Neck -->
+  <rect x="52" y="66" width="16" height="18" rx="4" fill="url(#skin-abhishek)"/>
+  <path d="M52 74 Q60 80 68 74 L68 78 Q60 84 52 78 Z" fill="#c68a5c" opacity="0.4"/>
+  
+  <!-- Ears -->
+  <circle cx="36" cy="53" r="6" fill="#e0aa80"/>
+  <circle cx="84" cy="53" r="6" fill="#e0aa80"/>
+  
+  <!-- Head / Face -->
+  <rect x="38" y="30" width="44" height="48" rx="20" fill="url(#skin-abhishek)"/>
+  
+  <!-- Modern Pompadour / Executive Hair -->
+  <path d="M35 38 C35 20 48 14 62 14 C76 14 85 22 85 36 C78 33 68 31 58 31 C46 31 38 35 35 38 Z" fill="#18181b"/>
+  <path d="M36 34 C44 22 62 16 78 20 C68 18 52 18 42 26 Z" fill="#27272a"/>
+  
+  <!-- Eyebrows -->
+  <path d="M44 44 Q50 42 55 44" stroke="#18181b" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M65 44 Q70 42 76 44" stroke="#18181b" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  
+  <!-- Eyes -->
+  <circle cx="49" cy="51" r="2.5" fill="#18181b"/>
+  <circle cx="71" cy="51" r="2.5" fill="#18181b"/>
+  <circle cx="50" cy="50" r="0.8" fill="#ffffff"/>
+  <circle cx="72" cy="50" r="0.8" fill="#ffffff"/>
+  
+  <!-- Nose -->
+  <path d="M58 52 Q60 59 62 59" stroke="#c68a5c" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+  
+  <!-- Professional Confident Smile -->
+  <path d="M51 65 Q60 72 69 65" stroke="#991b1b" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <path d="M54 66 Q60 70 66 66" fill="#ffffff"/>
+</svg>

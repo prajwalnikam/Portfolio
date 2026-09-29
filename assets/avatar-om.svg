@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="bg-om" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="skin-om" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fcd9b8"/>
+      <stop offset="100%" stop-color="#e8b488"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Circle -->
+  <circle cx="60" cy="60" r="60" fill="url(#bg-om)"/>
+  
+  <!-- Smart Polo Shirt & Collar -->
+  <path d="M22 110 C22 92 38 82 60 82 C82 82 98 92 98 110 Z" fill="#0284c7"/>
+  <!-- Polo Placket & Collar -->
+  <path d="M48 82 L60 96 L58 110 L62 110 L60 96 L72 82 Z" fill="#0369a1"/>
+  <path d="M48 82 L60 96 L53 82 Z" fill="#ffffff"/>
+  <path d="M72 82 L60 96 L67 82 Z" fill="#f8fafc"/>
+  <circle cx="60" cy="100" r="1.2" fill="#ffffff"/>
+  <circle cx="60" cy="105" r="1.2" fill="#ffffff"/>
+  
+  <!-- Neck -->
+  <rect x="52" y="68" width="16" height="18" rx="4" fill="url(#skin-om)"/>
+  <path d="M52 74 Q60 80 68 74 L68 78 Q60 84 52 78 Z" fill="#cc9060" opacity="0.4"/>
+  
+  <!-- Ears -->
+  <circle cx="36" cy="54" r="6" fill="#e8b488"/>
+  <circle cx="84" cy="54" r="6" fill="#e8b488"/>
+  
+  <!-- Head / Face -->
+  <rect x="38" y="32" width="44" height="46" rx="20" fill="url(#skin-om)"/>
+  
+  <!-- Clean Side-Swept Business Hair -->
+  <path d="M35 38 C35 22 47 16 62 16 C76 16 85 24 85 37 C77 34 70 32 60 32 C48 32 38 35 35 38 Z" fill="#0f172a"/>
+  <path d="M38 30 C48 18 68 18 78 24 C68 20 54 22 44 28 Z" fill="#1e293b"/>
+  
+  <!-- Eyebrows -->
+  <path d="M44 45 Q50 43 54 45" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M66 45 Q70 43 76 45" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  
+  <!-- Eyes -->
+  <circle cx="49" cy="52" r="2.4" fill="#0f172a"/>
+  <circle cx="71" cy="52" r="2.4" fill="#0f172a"/>
+  <circle cx="49.8" cy="51.2" r="0.75" fill="#ffffff"/>
+  <circle cx="71.8" cy="51.2" r="0.75" fill="#ffffff"/>
+  
+  <!-- Nose -->
+  <path d="M58 54 Q60 60 62 60" stroke="#cc9060" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+  
+  <!-- Engaging Friendly Smile -->
+  <path d="M51 65 Q60 72 69 65" stroke="#b45309" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <path d="M54 66 Q60 70 66 66" fill="#ffffff"/>
+</svg>
